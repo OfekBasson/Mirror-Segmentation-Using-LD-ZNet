@@ -258,7 +258,9 @@ class FrozenClipImageEmbedder(nn.Module):
 
 class FrozenSDUNet(AbstractEncoder):
     """Uses the CLIP transformer encoder for text (from Hugging Face)"""
-    def __init__(self, path="models/ldm/stable-diffusion-v1/sd-v1-4-full-ema.ckpt", config=None, timesteps=None):
+    # TODO: Was originally:
+    # def __init__(self, path="models/ldm/stable-diffusion-v1/sd-v1-4-full-ema.ckpt", config=None, timesteps=None):
+    def __init__(self, path="..checkpoints/Stable-diffusion-v1/sd-v1-4-full-ema.ckpt", config=None, timesteps=None):
         super().__init__()
         self.config = OmegaConf.load(f"{config}")
         self.ckpt_path = path

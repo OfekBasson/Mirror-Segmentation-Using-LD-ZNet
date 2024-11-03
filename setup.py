@@ -7,7 +7,17 @@ setup(
     packages=find_packages(),
     install_requires=[
         'torch',
+        'torchvision',
         'numpy',
         'tqdm',
+        'matplotlib',
+        'pillow',
+        'opencv-python',
+        'einops',
+        'omegaconf',
+        'pytorch-lightning==1.6.5',
+        'transformers',
+        "kornia",
+        "gdown"
     ],
 )
