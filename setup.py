@@ -18,6 +18,7 @@ setup(
         'pytorch-lightning==1.6.5',
         'transformers',
         "kornia",
-        "gdown"
+        "gdown",
+        "diffusers"
     ],
 )
