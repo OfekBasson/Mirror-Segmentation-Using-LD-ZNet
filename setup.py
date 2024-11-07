@@ -19,6 +19,7 @@ setup(
         'transformers',
         "kornia",
         "gdown",
-        "diffusers"
+        "diffusers",
+        "markupsafe==2.0.1"
     ],
 )

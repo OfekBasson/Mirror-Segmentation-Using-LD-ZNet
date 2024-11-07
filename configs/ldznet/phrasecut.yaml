@@ -84,7 +84,7 @@ model:
     sd_features_stage_config:
       target: ldm_seg.modules.encoders.modules.FrozenSDUNet
       params:
-        path: /root/Mirror-Segmentation-Using-LD-ZNet/checkpoints/Stable-diffusion-v1/sd-v1-4-full-ema.ckpt
+        path: /mnt/raid/home/ofek_basson/Mirror-Segmentation-Using-LD-ZNet/checkpoints/Stable-diffusion-v1/sd-v1-4-full-ema.ckpt
         config: ../configs/stable-diffusion/v1-inference.yaml
         timesteps: [ 300, 400, 500 ]
 
