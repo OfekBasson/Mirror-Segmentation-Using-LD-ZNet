@@ -935,7 +935,6 @@ class LatentSeg(DDPM):
         return [rescale_bbox(b) for b in bboxes]
 
     def apply_model(self, x_noisy, t, cond, sd_features, return_ids=False):
-
         if isinstance(cond, dict):
             # hybrid case, cond is exptected to be a dict
             pass

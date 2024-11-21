@@ -20,6 +20,9 @@ setup(
         "kornia",
         "gdown",
         "diffusers",
-        "markupsafe==2.0.1"
+        "markupsafe==2.0.1",
+        "einops",
+        "segment_anything",
+        "clip"
     ],
 )
