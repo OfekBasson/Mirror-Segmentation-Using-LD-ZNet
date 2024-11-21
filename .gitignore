@@ -168,3 +168,6 @@ cython_debug/
 sd-v1-4-full-ema.ckpt
 LDZNet_txt2mask.ckpt
 sam_vit_h.pth
+
+*.jpg
+*.png
